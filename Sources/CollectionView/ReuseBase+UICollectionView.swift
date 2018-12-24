@@ -8,6 +8,8 @@
 
 import UIKit
 
+extension UICollectionView: ReuseCompatible { }
+
 extension ReuseBase where Base: UICollectionView {
     
     public enum ElementKind: RawRepresentable {

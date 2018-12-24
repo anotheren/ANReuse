@@ -8,6 +8,8 @@
 
 import UIKit
 
+extension UITableView: ReuseCompatible { }
+
 extension ReuseBase where Base: UITableView {
     
     public func registerClass<T: UITableViewCell>(reusableCell type: T.Type) where T: Reusable {

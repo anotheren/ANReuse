@@ -134,6 +134,7 @@
 				TargetAttributes = {
 					A0CCAC8021D10FA20094B91D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -143,6 +144,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A0CCAC7721D10FA20094B91D;
 			productRefGroup = A0CCAC8221D10FA20094B91D /* Products */;
@@ -324,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANReuse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -351,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANReuse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A068AB0423698D5A00C6D765 /* ANReuse.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ANReuse.podspec; sourceTree = "<group>"; };
 		A0CCAC8121D10FA20094B91D /* ANReuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANReuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CCAC8421D10FA20094B91D /* ANReuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANReuse.h; sourceTree = "<group>"; };
 		A0CCAC8521D10FA20094B91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		A0CCAC7721D10FA20094B91D = {
 			isa = PBXGroup;
 			children = (
+				A068AB0423698D5A00C6D765 /* ANReuse.podspec */,
 				A0CCAC8321D10FA20094B91D /* Sources */,
 				A0CCAC8221D10FA20094B91D /* Products */,
 			);
@@ -323,6 +325,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANReuse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -350,6 +353,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANReuse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
